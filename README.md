@@ -21,5 +21,5 @@ $ make
 
 ## run the application:
 ```
-$ ./torchtest ../traced_resnet_model.pt ./image.jpg
+$ ./torch_inf ../traced_resnet_model.pt ./image.jpg
 ```
