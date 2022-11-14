@@ -1,13 +1,9 @@
 cmake_minimum_required( VERSION 3.1)
 
-project( torchtest )
+project( torch_inf )
 
-set( CMAKE_PREFIX_PATH /mnt/c/Users/Youssef/Desktop/CPP/torch-cpp/libtorch )
 set( CMAKE_INSTALL_PREFIX /usr/local)
 set( CMAKE_BUILD_TYPE Release)
-
-# set(OPENCV_EXTRA_MODULES_PATH /mnt/c/Users/Youssef/Desktop/CPP/opencv-cpp/opencv_contrib/modules)
-# We don't have that now
 
 set( CMAKE_CXX_STANDARD 11)
 set( CMAKE_CXX_STANDARD_REQUIRED TRUE)
