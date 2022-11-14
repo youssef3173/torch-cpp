@@ -8,6 +8,7 @@ Training a AlexNet in python and use the parameters of this model in C++
     - opencv
 
 # Inference Phase:
+## build the application:
 ```
 $ mkdir -p build && cd build
 ```
@@ -17,6 +18,8 @@ $ cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/libtorch ..
 ```
 $ make 
 ```
+
+## run the application:
 ```
 $ ./torchtest ../traced_resnet_model.pt ./image.jpg
 ```
