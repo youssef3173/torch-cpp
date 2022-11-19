@@ -10,16 +10,16 @@ Training a AlexNet in python and use the parameters of this model in C++
 # Inference Phase:
 ## build the application:
 ```
-$ mkdir -p build && cd build
+mkdir -p build && cd build
 ```
 ```
-$ cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/libtorch ..
+cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/libtorch ..
 ```
 ```
-$ make 
+make 
 ```
 
 ## run the application:
 ```
-$ ./torch_inf ../traced_resnet_model.pt ./4.jpg
+./torch_inf ../traced_resnet_model.pt ./4.jpg
 ```
